@@ -3,9 +3,14 @@ Pytorch implementation for MMD-ReID: A Simple but Effective solution for Visible
 
 **Paper link**: https://arxiv.org/abs/2111.05059
 
-**Presentation slides link**: https://drive.google.com/file/d/1S0sfA7PMyzqGPnG5izGBeZ7uClsJ1uA3/view?usp=sharing
+**Github Code**: https://github.com/vcl-iisc/MMD-ReID
+
+**Presentation Slides**: https://drive.google.com/file/d/1S0sfA7PMyzqGPnG5izGBeZ7uClsJ1uA3/view?usp=sharing
 
 **Project webpage**: https://vcl-iisc.github.io/mmd-reid-web/
+
+**Recorded Talk**: https://recorder-v3.slideslive.com/?share=55344&s=d3b53e98-4362-410a-825d-77706f8b71c4
+
 
 ### Dependencies:
 
