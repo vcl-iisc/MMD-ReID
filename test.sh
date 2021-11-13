@@ -1,0 +1,1 @@
+python test.py --dataset sysu --gpu 0 --pcb off --share_net 3 --batch-size 4 --num_pos 4 --run_name 'baseline'
