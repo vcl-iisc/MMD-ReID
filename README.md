@@ -17,9 +17,15 @@ Pytorch implementation for MMD-ReID: A Simple but Effective solution for Visible
 ### How to use this code: 
 Our code extends the pytorch implementation of [Parameter Sharing Exploration and Hetero center triplet loss for VT Re-ID](https://github.com/hijune6/Hetero-center-triplet-loss-for-VT-Re-ID) in Github. Please refer to the offical repo for details of data preparation.
 
-### Training:
+### Training: 
+```
+python train_mine.py --dataset sysu --gpu 1 --pcb off --share_net 3 --batch-size 4 --num_pos 4 --dist_disc 'margin_mmd' --margin_mmd 1.40 --run_name 'margin_mmd1.40'
+```
 
 ### Testing:
+```
+python test.py --dataset sysu --gpu 0 --pcb off --share_net 3 --batch-size 4 --num_pos 4 --run_name 'margin_mmd1.40'
+```
 
 ### Results:
 
