@@ -13,6 +13,10 @@ Pytorch implementation for MMD-ReID: A Simple but Effective solution for Visible
 
 
 ### Dependencies:
+- Python 3.7
+- GPU memory ~ 10G
+- NumPy 1.19
+- PyTorch 1.8
 
 ### How to use this code: 
 Our code extends the pytorch implementation of [Parameter Sharing Exploration and Hetero center triplet loss for VT Re-ID](https://github.com/hijune6/Hetero-center-triplet-loss-for-VT-Re-ID) in Github. Please refer to the offical repo for details of data preparation.
@@ -29,5 +33,18 @@ python test.py --dataset sysu --gpu 0 --pcb off --share_net 3 --batch-size 4 --n
 
 ### Results:
 
+|   | Rank@1  | Rank@10  | Rank@20  | mAP |
+|---|--------------|----------------|----------|-----------|
+| SYSU-MM01 (All search Single shot) | 66.75% | 94.16% | 97.38% | 62.25% |
+| RegDB (Visible to Thermal)    | 95.06% |  98.67% |  99.31% | 88.95% |
+
 ### Citation
 If you use this code, please cite our work as:
+```bibtex
+  @inproceedings{jambigi2021mmd,
+    title={MMD-ReID: A Simple but Effective solution for Visible-Thermal Person ReID},
+    author={Jambigi, Chaitra and Rawal, Ruchit and Chakraborty, Anirban},
+    booktitle={British Machine Vision Conference},
+    year={2021}
+}
+```
